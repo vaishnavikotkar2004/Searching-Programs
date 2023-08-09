@@ -1,0 +1,19 @@
+
+n=int(input("enter limit"))
+a=[]
+for i in range(n):
+    num=int(input("enter 1 by 1 number"))
+    a.append(num)
+    print("numbers=",a)
+print("maximum number in array=",max(a))
+
+
+
+
+n=int(input("enter limit"))
+a=[]
+for i in range(n):
+    num=int(input("enter 1 by 1 number"))
+    a.append(num)
+    print("numbers=",a)
+print("minimum number in array=",min(a))
